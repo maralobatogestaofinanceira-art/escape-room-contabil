@@ -152,6 +152,6 @@ if usuario != "Selecione...":
                 st.error("Incorreto! Dica: " + fase_atual["erro"])
     else:
         st.balloons()
-        st.success("🎉 PARABÉNS! A vossa equipa escapou do labirinto e o Balanço Patrimonial fechou na perfeição! O Professor Erminio está orgulhosa!")
+        st.success("🎉 PARABÉNS! A vossa equipa escapou do labirinto e o Balanço Patrimonial fechou na perfeição! O Professor Erminio está orgulhoso!")
 else:
     st.warning("Por favor, selecione a vossa equipa para iniciar o jogo.")
