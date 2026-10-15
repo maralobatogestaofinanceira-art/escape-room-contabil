@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="Escape Room: Escrituração", page_icon="🔐", layout="centered")
 
 # --- CONTROLE DE ACESSO ---
-alunos_permitidos = ["Selecione...", "Equipe 1", "Equipe 2", "Equipe 3", "João Silva"]
+alunos_permitidos = ["Selecione...", "Basica 1"]
 
 st.title("🔐 Escape Room Contábil")
 st.markdown("Bem-vindos à monitoria de **Contabilidade Básica I**. Sigam o ciclo contabilístico completo: do Diário (Eventos 1 a 12), passando pelos Razonetes, até fechar o Balanço Patrimonial!")
@@ -152,6 +152,6 @@ if usuario != "Selecione...":
                 st.error("Incorreto! Dica: " + fase_atual["erro"])
     else:
         st.balloons()
-        st.success("🎉 PARABÉNS! A vossa equipa escapou do labirinto e o Balanço Patrimonial fechou na perfeição! A Professora Gilmara está orgulhosa!")
+        st.success("🎉 PARABÉNS! A vossa equipa escapou do labirinto e o Balanço Patrimonial fechou na perfeição! O Professor Erminio está orgulhosa!")
 else:
     st.warning("Por favor, selecione a vossa equipa para iniciar o jogo.")
